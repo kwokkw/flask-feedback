@@ -7,7 +7,7 @@ app.config['WTF_CSRF_ENABLED'] = False
 
 
 # Define class object inherit from `TestCase`
-class AuthenticationTestCase(TestCase):
+class AuthTestCase(TestCase):
     def setUp(self):
         # Set up test client and database before each test
         print("INSIDE SET UP")
